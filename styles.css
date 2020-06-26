@@ -1,0 +1,21 @@
+nav {
+    border-bottom: 1px;
+    border-bottom-style:solid;
+    border-color: black;
+
+    box-shadow: 0 8px 8px 1px lightgrey;
+    clip-path: inset(0px 16px 0px 0px);
+    
+}
+
+#navbar {
+    margin: 2%;
+    text-align: center;
+    padding: 0;
+}
+.navbar-category {
+    width:20%;
+    margin: 0 4%;
+    list-style:none;
+    display:inline-block;
+}
