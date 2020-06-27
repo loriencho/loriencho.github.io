@@ -1,21 +1,29 @@
-nav {
-    border-bottom: 1px;
-    border-bottom-style:solid;
-    border-color: black;
-
-    box-shadow: 0 8px 8px 1px lightgrey;
-    clip-path: inset(0px 16px 0px 0px);
+body {
+    font-family: 'PT Sans', sans-serif;
     
 }
 
-#navbar {
-    margin: 2%;
-    text-align: center;
-    padding: 0;
+.grid {
+    height:100vh;
+    display: grid;
+    grid-template: repeat(25, 4%) / repeat(25, 4%);
+    overflow: hidden;
 }
-.navbar-category {
-    width:20%;
-    margin: 0 4%;
-    list-style:none;
-    display:inline-block;
+
+#name {
+    grid-row: 2 / span 1;
+    grid-column: 3 / span 5;
+}
+
+a {
+    text-decoration:none;
+}
+
+#navbar {
+    grid-column: 20 / span 6;
+    grid-row: 3 / span 1;
+}
+
+.nav-heading{
+    margin:6%;
 }
