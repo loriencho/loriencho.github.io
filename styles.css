@@ -1,7 +1,9 @@
 body, html {
     height:100%;
     margin:0;
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    text-shadow: 0 0 1vh black;
+    color:white;
 }
 
 body {
@@ -12,8 +14,14 @@ body {
 }
 
 #main-text {
-    grid-row:10;
-    grid-column:11;
+    border-radius: 2vh;
+    box-shadow: 0 0 2vh 5vh rgba(0, 0, 0, 0.363);;
+    background-color:rgba(0, 0, 0, 0.363);
+    font-size:2em;
+    font-weight: lighter;
+    grid-row:9 / span 7;
+    grid-column:9 / span 10;
+    text-align:center;
 }
 
 .grid {
@@ -34,9 +42,12 @@ body {
 }
 
 #name {
-    color:white;
     grid-row: 1 / span 1;
     grid-column: 3 / span 5;
+}
+
+h2{
+    font-weight:lighter;
 }
 
 a {
@@ -44,14 +55,17 @@ a {
 }
 
 #navbar {
-    text-shadow: 0 0 1vh black;
     grid-column: 20 / span 6;
     grid-row: 2 / span 1;
 }
 
 .nav-heading{
+    font-weight:100;
+    text-shadow: 0 0 1vh black;
     color:white;
+    margin-top: 0;
     margin:6%;
+
 }
 
 #photo {
@@ -59,7 +73,7 @@ a {
 }
 
 h1.main-text {
-    color:white;
-    font-size: 5em;
-    text-shadow: 0 0 1vh black;
+    margin-top:0;
+    margin-bottom: 1%;
+    font-size: 2.5em;
 }
