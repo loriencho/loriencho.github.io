@@ -1,2 +1,2 @@
 # personalwebsite
-A personal website with about me.
+A website about me. Not much else to say, to be honest.
